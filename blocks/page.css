@@ -1,0 +1,28 @@
+.page {
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  background-color: #fcf5e5;
+}
+
+.page__header {
+  margin-bottom: 34px;
+}
+
+.page__content {
+  max-width: 1280px;
+  padding: 0 40px 60px 40px;
+  margin: auto;
+}
+
+.page__main {
+}
+
+.page__profile {
+  margin-bottom: 20px;
+}
+
+.page__footer {
+}
