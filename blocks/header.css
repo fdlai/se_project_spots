@@ -1,6 +1,6 @@
 .header {
   background-color: #fff;
-  height: 46px;
+  min-height: 46px;
   width: 100%;
   background-image: url("../images/spots-logo.svg");
   background-position: center;

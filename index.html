@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
-    />
+    /> -->
     <link rel="stylesheet" href="./pages/index.css" />
     <title>Spots</title>
   </head>
@@ -16,28 +16,133 @@
     <div class="header page__header"></div>
     <div class="page__content">
       <main class="main page__main">
+        <!-- ------------------------------- Profile ------------------------------- -->
         <section class="profile page__profile">
           <img
             src="./images/bessie-coleman.jpg"
-            alt=""
+            alt="Bessie Coleman"
             class="profile__image"
           />
           <div class="profile__info">
             <h1 class="profile__name">Bessie Coleman</h1>
             <p class="profile__description">Civil Aviator</p>
-            <button class="profile__edit-button">
+            <button
+              class="profile__edit-button"
+              type="button"
+              aria-label="edit"
+            >
               <div class="profile__pencil-icon"></div>
               <p class="profile__edit-button-text">Edit Profile</p>
             </button>
           </div>
-          <button class="profile__add-button">
+          <button class="profile__add-button" type="button" aria-label="Add">
             <div class="profile__plus-icon"></div>
             <p class="profile__add-button-text">New Post</p>
           </button>
         </section>
+        <!-- ---------------------------- Cards Section ---------------------------- -->
+        <section class="cards">
+          <ul class="cards__list">
+            <li class="card">
+              <img
+                src="./images/val-thorens.jpg"
+                alt="Val Thorens"
+                class="card__image"
+              />
+              <div class="card__content">
+                <h2 class="card__title">Val Thorens</h2>
+                <button
+                  class="card__like-button"
+                  type="button"
+                  aria-label="Like"
+                ></button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                src="./images/restaurant-terrace.jpg"
+                alt="Restaurant terrace"
+                class="card__image"
+              />
+              <div class="card__content">
+                <h2 class="card__title">Restaurant terrace</h2>
+                <button
+                  class="card__like-button"
+                  type="button"
+                  aria-label="Like"
+                ></button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                src="./images/outdoor-cafe.jpg"
+                alt="An outdoor cafe"
+                class="card__image"
+              />
+              <div class="card__content">
+                <h2 class="card__title">An outdoor cafe</h2>
+                <button
+                  class="card__like-button"
+                  type="button"
+                  aria-label="Like"
+                ></button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                src="./images/long-bridge.jpg"
+                alt="A very long bridge, over the forest in Germany"
+                class="card__image"
+              />
+              <div class="card__content">
+                <h2 class="card__title">
+                  A very long bridge, over the forest in Germany
+                </h2>
+                <button
+                  class="card__like-button"
+                  type="button"
+                  aria-label="Like"
+                ></button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                src="./images/tunnel.jpg"
+                alt="Tunnel with morning light"
+                class="card__image"
+              />
+              <div class="card__content">
+                <h2 class="card__title">Tunnel with morning light</h2>
+                <button
+                  class="card__like-button"
+                  type="button"
+                  aria-label="Like"
+                ></button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                src="./images/mountain-house.jpg"
+                alt="Mountain house"
+                class="card__image"
+              />
+              <div class="card__content">
+                <h2 class="card__title">Mountain house</h2>
+                <button
+                  class="card__like-button"
+                  type="button"
+                  aria-label="Like"
+                ></button>
+              </div>
+            </li>
+          </ul>
+        </section>
       </main>
-      <footer class="footer page__footer"></footer>
+      <!-- ------------------------------- Footer -------------------------------- -->
     </div>
+    <footer class="footer page__footer">
+      <p class="footer__copyright">2024 &copy Spots</p>
+    </footer>
     <script src="./pages/index.js"></script>
   </body>
 </html>
