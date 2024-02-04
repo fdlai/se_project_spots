@@ -17,16 +17,12 @@
   margin-bottom: 34px;
 }
 
-.page__content {
+.page__main {
   max-width: 1320px;
   padding: 0 20px;
-  margin: auto;
+  margin: 0 auto 60px auto;
   width: 100%;
   box-sizing: border-box;
-}
-
-.page__main {
-  margin-bottom: 60px;
 }
 
 .page__profile {
@@ -34,7 +30,10 @@
 }
 
 @media screen and (max-width: 453px) {
-  .page__content {
+  .page__header {
+    margin-bottom: 20px;
+  }
+  .page__main {
     padding: 0 16px;
   }
 }

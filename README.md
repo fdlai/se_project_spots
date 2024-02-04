@@ -18,7 +18,7 @@ Currently, the Spots project features a profile section housing a user's name, d
 - Support for screen sizes all the way down to 320px
 - Sticky footer
 
-## Plan on improving the project
+## Plans on improving the project
 
 Plans to add:
 
