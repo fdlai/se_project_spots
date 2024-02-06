@@ -48,100 +48,7 @@
       </section>
       <!-- ---------------------------- Cards Section ---------------------------- -->
       <section class="cards">
-        <ul class="cards__list">
-          <li class="card">
-            <img
-              src="./images/val-thorens.jpg"
-              alt="Val Thorens"
-              class="card__image"
-            />
-            <div class="card__content">
-              <h2 class="card__title">Val Thorens</h2>
-              <button
-                class="card__like-button"
-                type="button"
-                aria-label="Like"
-              ></button>
-            </div>
-          </li>
-          <li class="card">
-            <img
-              src="./images/restaurant-terrace.jpg"
-              alt="Restaurant terrace"
-              class="card__image"
-            />
-            <div class="card__content">
-              <h2 class="card__title">Restaurant terrace</h2>
-              <button
-                class="card__like-button"
-                type="button"
-                aria-label="Like"
-              ></button>
-            </div>
-          </li>
-          <li class="card">
-            <img
-              src="./images/outdoor-cafe.jpg"
-              alt="An outdoor cafe"
-              class="card__image"
-            />
-            <div class="card__content">
-              <h2 class="card__title">An outdoor cafe</h2>
-              <button
-                class="card__like-button"
-                type="button"
-                aria-label="Like"
-              ></button>
-            </div>
-          </li>
-          <li class="card">
-            <img
-              src="./images/long-bridge.jpg"
-              alt="A very long bridge, over the forest in Germany"
-              class="card__image"
-            />
-            <div class="card__content">
-              <h2 class="card__title">
-                A very long bridge, over the forest in Germany
-              </h2>
-              <button
-                class="card__like-button"
-                type="button"
-                aria-label="Like"
-              ></button>
-            </div>
-          </li>
-          <li class="card">
-            <img
-              src="./images/tunnel.jpg"
-              alt="Tunnel with morning light"
-              class="card__image"
-            />
-            <div class="card__content">
-              <h2 class="card__title">Tunnel with morning light</h2>
-              <button
-                class="card__like-button"
-                type="button"
-                aria-label="Like"
-              ></button>
-            </div>
-          </li>
-          <li class="card">
-            <img
-              src="./images/mountain-house.jpg"
-              alt="Mountain house"
-              class="card__image"
-            />
-            <div class="card__content">
-              <h2 class="card__title">Mountain house</h2>
-              <button
-                class="card__like-button"
-                type="button"
-                aria-label="Like"
-              ></button>
-            </div>
-          </li>
-        </ul>
+        <ul class="cards__list"></ul>
       </section>
     </main>
     <!-- ------------------------------- Footer -------------------------------- -->
@@ -161,6 +68,7 @@
           <p class="modal__paragraph">Name</p>
           <input
             class="modal__input"
+            id="edit-profile-name-input"
             type="text"
             name="name"
             placeholder="Type your name"
@@ -168,6 +76,7 @@
           <p class="modal__paragraph">Description</p>
           <input
             class="modal__input"
+            id="edit-profile-description-input"
             type="text"
             name="description"
             placeholder="Describe yourself"
@@ -178,6 +87,20 @@
         </form>
       </div>
     </div>
+    <!-- ---------------------------- Card Template ---------------------------- -->
+    <template id="card-template">
+      <li class="card">
+        <img src="" alt="" class="card__image" />
+        <div class="card__content">
+          <h2 class="card__title"></h2>
+          <button
+            class="card__like-button"
+            type="button"
+            aria-label="Like"
+          ></button>
+        </div>
+      </li>
+    </template>
     <script src="./scripts/index.js" defer></script>
   </body>
 </html>
